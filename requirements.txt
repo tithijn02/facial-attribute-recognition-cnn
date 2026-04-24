@@ -1,0 +1,22 @@
+# Core numerical and scientific libraries
+numpy>=1.18.0
+pandas>=1.0.0
+
+# Visualization
+matplotlib>=3.1.0
+
+# Computer vision
+opencv-python>=4.2.0.32
+
+# Deep learning framework (includes Keras as tf.keras)
+tensorflow>=2.0.0
+
+# Additional libraries that are often used in machine learning workflows
+scikit-learn>=0.22.0
+h5py>=2.10.0
+
+# Utility library for easier image processing (if used in the notebook)
+imutils>=0.5.3
+
+# (Optional) Jupyter Notebook to run the .ipynb file
+jupyter
