@@ -37,9 +37,9 @@ This can support:
 
 ## 🛠️ How it was done
 
-The project uses the CelebA dataset, consisting of facial images and corresponding keypoint annotations. Images were preprocessed through resizing and normalization before being converted into numerical arrays for model training :contentReference[oaicite:0]{index=0}.
+The project uses the CelebA dataset, consisting of facial images and corresponding keypoint annotations. Images were preprocessed through resizing and normalization before being converted into numerical arrays for model training.
 
-A CNN architecture was built using TensorFlow/Keras, with convolutional and pooling layers for feature extraction, followed by dense layers to predict facial keypoints. The model was trained using Mean Squared Error (MSE) as the loss function and evaluated using Mean Absolute Error (MAE) :contentReference[oaicite:1]{index=1}.
+A CNN architecture was built using TensorFlow/Keras, with convolutional and pooling layers for feature extraction, followed by dense layers to predict facial keypoints. The model was trained using Mean Squared Error (MSE) as the loss function and evaluated using Mean Absolute Error (MAE).
 
 The dataset was split into training and validation sets (80/20), and model performance was monitored through training and validation loss curves to ensure generalization.
 
